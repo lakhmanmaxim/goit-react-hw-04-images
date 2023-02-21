@@ -3,25 +3,6 @@ import styles from '../styles.module.css';
 
 import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
 
-// const ImageGallery = ({ items, showImage }) => {
-
-//   const elements = items.map(({ id, webformatURL, largeImageURL}) => (
-//     <li onClick={()=>showImage({largeImageURL})} key={id} className={styles.imageGalleryItem}>
-//       <img
-//         className={styles.imageGalleryItem_image}
-//         src={webformatURL}
-//         alt="foto"
-//       />
-//     </li>
-//   ));
-
-//   return (
-//     <>
-//       <ul className={styles.imageGallery}>{elements}</ul>
-//     </>
-//   );
-// };
-
 const ImageGallery = ({ items, showImage }) => {
   return (
     <>

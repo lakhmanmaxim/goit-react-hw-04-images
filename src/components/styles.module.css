@@ -228,3 +228,9 @@ img {
   background-color: #303f9f;
   scale: 1.1;
 }
+
+.text_message {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
