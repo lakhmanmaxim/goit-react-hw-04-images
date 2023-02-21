@@ -63,10 +63,10 @@ const App = () => {
     //   .finally(() => setLoading(false));
   };
 
-  // const closeModal = () => {
-  //   setImageDetails(null);
-  //   setShowModal(false);
-  // };
+  const closeModal = () => {
+    setImageDetails(null);
+    setShowModal(false);
+  };
 
   return (
     <>
@@ -81,11 +81,11 @@ const App = () => {
         <ButtonLoadMore loadMore={loadMore} text={'Load More'} />
       )}
 
-      {/* {showModal && (
+      {showModal && (
         <Modal closeModal={closeModal}>
           <ImageDetails {...imageDetails} />
         </Modal>
-      )} */}
+      )}
     </>
   );
 };
