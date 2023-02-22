@@ -26,6 +26,7 @@ const App = () => {
   };
 
   useEffect(() => {
+    
     setLoading(true);
 
     if (!search) {
